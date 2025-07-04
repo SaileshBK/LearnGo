@@ -1,12 +1,12 @@
 package main
 
 import (
-    "flag"
     "fmt"
+    "LearnGo/Basics"
 )
 
+
 func main() {
-    name := flag.String("name", "World", "a name to greet")
-    flag.Parse()
-    fmt.Printf("Hello, %s!\n", *name)
+    response := functions.AddTwoNumbers(1,2)
+    fmt.Println("1+2 =", response)     
 }

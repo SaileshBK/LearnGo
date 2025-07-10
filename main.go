@@ -5,13 +5,13 @@ import (
     "LearnGo/Basics"
 )
 
-
 func main() {
+    // Functions
     fmt.Println("Adding two numbers")
-    response := functions.AddTwoNumbers(1,2)
+    response := basic.AddTwoNumbers(1,2)
     fmt.Println("1+2 =", response)
     
     // Loops
     fmt.Println("\nLooping")
-    functions.LoopingFunction()     
+    basic.LoopingFunction()     
 }
